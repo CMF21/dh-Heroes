@@ -33,21 +33,24 @@ img{
     width: 100%;
 }
 p.index{
-    color: wheat;
+    color: rgb(255, 255, 255);
     width: 60%;
     margin-left: 20%;
     margin-bottom: 30px;
     padding: 15px;
     border-radius: 5px;
-    background-color: #93451C;
+    background-color: #72462e;
+    filter: blur(0.5px)
 }
+
+p.index:hover {
+    filter: blur(0px)}
 div.container{
     overflow: hidden;
     padding-top:30px;
     
 }
 div.imagen{
-    
     width: 30%;
     float: left;
     
@@ -64,19 +67,28 @@ ul{
     flex-wrap: wrap;
     justify-content:center;
     list-style-type: none;
+    
 
     ;
 }
 ul li{
-    margin: 5px;
-    border-radius: 12px ;
-    width: 20%;
-    background-color: #FDFFFC;
+    width: 6%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 10px ;
+    border: solid 3px #6e6b67;
+    background-color: #e9ddc8;
+    opacity: 0.5;
 }
+ul li:hover {opacity: 0.9}
 main ul li a{
     text-decoration: none;
     color: black;
+    padding-top: 5px;/* ver */
+    
+    cursor: pointer;
 }
+
 button{
     background-color:  #FDFFFC;
     border-radius: 50px;
