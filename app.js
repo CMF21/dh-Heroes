@@ -55,8 +55,8 @@ app.get('/turing', (req,res)=>{
 })
 
 // Levantando el servidor
-app.listen(3001, (req,res)=>{
-    console.log('Servidor corriendo en http://localhost:3001');
+app.listen(3030, (req,res)=>{
+    console.log('Servidor corriendo en http://localhost:3030');
 })
 
 app.use(express.static('public'))

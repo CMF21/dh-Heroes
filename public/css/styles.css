@@ -39,12 +39,14 @@ p.index{
     margin-bottom: 30px;
     padding: 15px;
     border-radius: 5px;
-    background-color: #72462e;
-    filter: blur(0.5px)
+    background-color: rgb(60,24,8);
+    filter: blur(0.5px);
+    box-shadow: 5px 5px 5px rgb(149,70,27) ;
 }
 
 p.index:hover {
-    filter: blur(0px)}
+    filter: blur(0px)
+}
 div.container{
     overflow: hidden;
     padding-top:30px;
